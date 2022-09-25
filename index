@@ -49,6 +49,12 @@
                         <option value="Sponsor">Sponsorship inquiry</option>
                     </select>
                 </fieldset>
+                <h3>Please write us a message regarding your submission so our team can better assist you.</h3>
+                <fieldset>
+                    <textarea rows="20" cols="30">Enter your message here</textarea>
+                   
+            
+                </fieldset>
 
                 <input type="submit" value="Submit" />
             </form>
