@@ -22,26 +22,26 @@
 
                 <div>
                     <label for="name">Name:</label><br />
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" required />
                 </div>
                 <div>
                     <label for="lastName">Last Name:</label><br />
-                    <input type="text" name="lastName" id="lastName" />
+                    <input type="text" name="lastName" id="lastName" required />
                 </div>
                 <div>
                     <label for="email">Email:</label><br />
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" required />
                 </div>
                 <div>
-                    <label for="tel">Phone Number:</label><br />
-                    <input type="tel" name="tel" id="tel" />
+                    <label for="PhoneNumber">Phone Number:</label><br />
+                    <input type="phone" name="PhoneNumber" id="PhoneNumber" optional/>
                 </div>
             </fieldset>
 
             <fieldset>
                 <legend>Reason for form submission</legend>
                 <label for="message">Reason:</label>
-                <select name="message" id="message">
+                <select name="message" id="message" required>
                     <option value="Careers">Career Opportunities</option>
                     <option value="Marketing">Marketing proposal</option>
                     <option value="General">General Inquiry</option>
@@ -55,7 +55,7 @@
                 <div>
 
                     <textarea id="textarea" name="textarea" id="textarea" rows="20"
-                        cols="30">enter your message here</textarea>
+                        cols="30" optional>enter your message here</textarea>
 
                 </div>
 
